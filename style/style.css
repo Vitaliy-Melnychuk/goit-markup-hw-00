@@ -1,3 +1,20 @@
+.icon {
+    display: block;
+    width: 20px;
+    height: 20px;
+    fill: #AFB1B8;
+  }
+.list-icon {
+    display: flex;
+    justify-content: space-between;
+}
+.icon-wrapper {
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 16px;
+}
+
+
 body {
     font-family: 'Roboto', sans-serif;
     font-weight: normal;
@@ -182,6 +199,12 @@ a.currentlink {
     font-size: 16px;
     line-height: 19px;
     color: var(--popular-color);
+}
+.team-icon {
+    display: block;
+    fill: #2F303A;
+    width: 30px;
+    height: 30px;
 }
 
 .footer {
